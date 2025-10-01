@@ -94,6 +94,20 @@ Este projeto pode ser hospedado em qualquer serviço de hospedagem estática:
 - **GitHub Pages**: Use o comando `npm run build` e hospede a pasta `build/`
 - **AWS S3**: Faça upload da pasta `build/` para um bucket S3
 
+## Verificação do Google Search Console
+
+Para verificar o domínio no Google Search Console:
+
+1. **Acesse o Google Search Console**: https://search.google.com/search-console
+2. **Adicione uma nova propriedade** com a URL do seu site
+3. **Escolha "Arquivo HTML"** como método de verificação
+4. **Baixe o arquivo** fornecido pelo Google (ex: `google[hash].html`)
+5. **Substitua o arquivo** `public/google-site-verification.html` pelo arquivo real
+6. **Faça o commit e push** das alterações
+7. **Aguarde o deploy** e verifique no Google Search Console
+
+O arquivo deve ficar acessível em: `https://seu-dominio.com/google[hash].html`
+
 ## Licença
 
 Este projeto é proprietário do FleetCtrl. Todos os direitos reservados.
