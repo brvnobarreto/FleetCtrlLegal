@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # FleetCtrl - Páginas Legais
 
 Este é um projeto React estático que contém as páginas legais necessárias para a publicação do aplicativo FleetCtrl nas lojas de aplicativos.
@@ -111,3 +112,6 @@ O arquivo deve ficar acessível em: `https://seu-dominio.com/google[hash].html`
 ## Licença
 
 Este projeto é proprietário do FleetCtrl. Todos os direitos reservados.
+=======
+Fleet Ctrl Legal Repo
+>>>>>>> 85e6f99577bec262a06ffe66dd8a908c09fb3a58
